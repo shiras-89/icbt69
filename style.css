@@ -1,0 +1,49 @@
+/*div{border:solid 1px}*/
+body{color:#000; background: url("8.jpeg")}
+#wrapper{width:980px; margin:0 auto; }
+
+#header{width:980px; height:100px; background-color: #7E83CA ; float:right; color:white; font-family:Verdana; }
+#header h2{position:relative; display:inline-block;}
+
+#logo{width:50px; height:50px; ; float:left; }
+
+
+
+#menu{width:980px;height:50px; clear:both; font-family:Verdana; background-color:#727492; padding:10px 0px; }
+#menu li{display:inline; padding:25px; margin-right:20px; color:black;  }
+#menu a{ text-decoration:none; color:white; font-family:Cursive; font-size:20px; }
+#menu a:hover{color:black;}
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position:absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+#content{width:980px;  background-color:#6159AB; display:inline-block;}
+#content .grid{width:280px; height:500px; float:left; margin-right:25px ; margin-top:10px; padding:10px;  }
+#content .grid:last-child{margin-right:10px; float:right} 
+#Address{width:980px; height:250px;  background-color: #8E8AAF ;display:inline-block;}
+
+
+#footer{width:980px;height:50px; padding:1px; clear:both;  background-color:#A9A3D7; text-align:center}
